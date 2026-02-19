@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payoo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-base-200 min-h-screen max-w-md mx-auto">
+    <header>
+      <section
+        class="border-b-2 w-11/12 mx-auto py-3 flex justify-between items-center"
+      >
+        <div class="left flex gap-1">
+          <div class="logo w-[60px]">
+            <img class="" src="./image/logo.png" alt="" />
+          </div>
+          <div class="balance-info">
+            <h2 class="`text-2xl font-bold">
+              $<span id="balance">45000</span>
+            </h2>
+            <p class="text-neutral/50">Available balance</p>
+          </div>
+        </div>
+        <div class="right">
+          <a href="./login.html" class="btn btn-soft">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>Logout
+          </a>
+        </div>
+      </section>
+    </header>
+    <section class="w-11/12 mx-auto space-y-5">
+      <h2 class="text-2xl font-bold pt-10">
+        Welcome to Pay<span class="text-primary">oo</span>
+      </h2>
+      <p class="text-neutral/50">
+        Enjoy easy and convenient financial services with us. Cash-out charge is
+        low and fast.
+      </p>
+      <div class="grid grid-cols-3 grid-rows-3 gap-3.5">
+        <button class="btn btn-primary btn-soft py-10 flex-col w-full">
+          <img src="./image/opt-1.png" alt="" />
+          Add Money
+        </button>
+        <button class="btn btn-primary btn-soft py-10 flex-col w-full">
+          <img src="./image/opt-2.png" alt="" />
+          Cashout 
+        </button>
+        <button class="btn btn-primary btn-soft py-10 flex-col w-full">
+          <img src="./image/opt-3.png" alt="" />
+          Transfer Money
+        </button>
+        <button class="btn btn-primary btn-soft py-10 flex-col w-full">
+          <img src="./image/opt-4.png" alt="" />
+          Get Bonus
+        </button>
+        <button class="btn btn-primary btn-soft py-10 flex-col w-full">
+          <img src="./image/opt-5.png" alt="" />
+          Pay Bill
+        </button>
+        <button class="btn btn-primary btn-soft py-10 flex-col w-full">
+          <img src="./image/opt-6.png" alt="" />
+          Transactions
+        </button>
+      </div>
+    </section>
+    <section id="Cash-out" class="w-11/12 mx-auto py-5">
+      <h2 class=""></h2>
+
+    </section>
+  </body>
+</html>
